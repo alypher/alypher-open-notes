@@ -8,7 +8,8 @@ const Home = () => (
             <h1>OPEN <b>NOTES</b></h1>
             <h4>by Álypher Mansano</h4>
         </div>
-        <img src={github} onClick={() => window.open("https://github.com/alypher/open-notes")}/>
+        <div onClick={() => window.location = "/start"}>start</div>
+        <img src={github} onClick={() => window.open("https://github.com/alypher/alypher-open-notes")}/>
     </div>
 )
 
